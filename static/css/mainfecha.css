@@ -1,0 +1,40 @@
+.pdfobject-container { 
+    height: 60rem;
+    border: 1rem solid rgba(0,0,0,.1);
+}
+.modal-dialog { 
+    background-color: #fff;
+    padding: 20px 15px;
+}
+#cancel{ 
+    margin: 5px;
+    display: block;
+}
+.cargando{
+    position: absolute;
+    width: 30px;
+    right: 430px;
+    top: 22px;
+}
+.hide{display: none;}      
+
+
+header{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+/*estilos para la tabla*/
+table th {
+    background-color: #337ab7 !important;
+    color: white;
+}
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
